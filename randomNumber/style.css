@@ -1,0 +1,43 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#main{
+  padding: 10px;
+}
+
+#randomNumber {
+  display: grid;
+  grid-template-columns: auto;
+  grid-row-gap: 20px;
+}
+
+#numberDisplay {
+  text-align: center;
+  font-size: 100px;
+}
+
+.inputNumbers {
+  height: 100px;
+  border: 1px solid #000000;
+  font-size: 25px;
+}
+
+#generateButton {
+  background-color: #6f6;
+  height: 100px;
+  border: 1px solid #000000;
+  width: 100%;
+  font-size: 30px;
+}
+
+*:focus{
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
