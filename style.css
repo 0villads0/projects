@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#main {
+  padding: 10px;
+}
+
+#projectHolder {
+  display: grid;
+  grid-row-gap: 20px;
+}
+
+#projectHolder a{
+  text-decoration: none;
+  border: 2px solid #000000;
+  height: 250px;
+  color: #000000;
+  text-align: center;
+  font-size: 35px;
+}
+
+#projectHolder a:hover{
+  border: 2px solid #6f6;
+}
+
+@media only screen and (min-width: 700px) {
+  #projectHolder {
+    grid-template-columns: auto auto;
+    grid-column-gap: 20px;
+}
+
+@media only screen and (min-width: 1024px) {
+  #projectHolder {
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+}
